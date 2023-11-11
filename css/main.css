@@ -32,6 +32,18 @@ html {
   line-height: 3rem;
   text-decoration: none;
 }
+.subnav{
+  list-style: none;
+  display: none;
+    position: absolute;
+    background-color: #bababa98;
+    padding-left: 0;
+}
+
+
+li:hover .subnav{
+  display: block;
+}
 
 @media (min-width: 48em) {
   .site-title {
@@ -54,6 +66,10 @@ html {
 .nav-link:focus,
 .active .nav-link {
   color: rgba(0, 0, 0, 0.6) !important;
+  background-color: #908f8f9c;
+}
+.groove-border{
+  border-style: groove;
 }
 
 /* Hero (intro) section */
